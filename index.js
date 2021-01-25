@@ -55,7 +55,7 @@ nomcr = `17196000713@s.whatsapp.net`
      // API KEY
 			const barkey = 'APIKEY' // get in https://mhankbarbar.tech/api
 			const tobzkey = 'APIKEY'// GET IN https://tobz-api.herokuapp.com/api
-			const vhtear = 'resyasayang'// GET IN https://api.vhtear.com/
+			const vhtear = 'APIKEY'// GET IN https://api.vhtear.com/
 			const zekskey = 'APIKEY' //GET IN https://api.zeks.xyz
 			const techkey = 'APIKEY' //GET IN https://api.i-tech.id
 
@@ -363,10 +363,10 @@ async function starts() {
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
 			const apiKey = 'pJ6xKSMPCT8QMcvBzGFY'
-            const apikey = 'O8mUD3YrHIy9KM1fMRjamw8eg'
-            const vkey = 'resyasayang'
-            const tobzkey = 'BotWeA'
-            const xpkey = 'xptn3'
+            const apikey = 'APIKEY'
+            const vkey = 'APIKEY'
+            const tobzkey = 'APIKEY'
+            const xpkey = 'APIKEY'
 			const insom = from.endsWith('@g.us')
 			const botFebb = insom ? mek.participant : mek.key.remoteJid
 			const { text, extendedText, contact, location, liveLocation, image, video, sticker, document, audio, product } = MessageType
@@ -590,7 +590,8 @@ async function starts() {
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const groupId = isGroup ? groupMetadata.jid : ''
 			const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
-            const bulan = arrayBulan[moment().format('MM') - 1]
+
+            const bulan = arrayBulan[moment().format('MM') - 1]
 			const groupMembers = isGroup ? groupMetadata.participants : ''
 			const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
 			const groupOwner = isGroup ? groupMetadata.owner : ''
@@ -2231,7 +2232,8 @@ break
 					if (isBanned) return reply(mess.only.benned)   
                if (!isUser) return reply(mess.only.userB)
 					if (isBanned) return reply(mess.only.benned)  
-               random = apakah[Math.floor(Math.random() * (apakah.length))]  	
+               random = apakah[Math.floor(Math.random() * (apakah.length))]
+  	
 			   hasil = `Pertanyaan : *${body.slice(1)}*\n\nJawaban : *${random}*`
 			   reply(hasil)
 			   break
@@ -2241,7 +2243,8 @@ break
 					if (isBanned) return reply(mess.only.benned)   
                 if (!isUser) return reply(mess.only.userB)
 					if (isBanned) return reply(mess.only.benned)  
-                random = bisakah[Math.floor(Math.random() * (bisakah.length))]  	
+                random = bisakah[Math.floor(Math.random() * (bisakah.length))]
+  	
 			   hasil = `Pertanyaan : *${body.slice(1)}*\n\nJawaban : *${random}*`
 			   reply(hasil)
 			   break
@@ -2276,7 +2279,8 @@ break
 					if (isBanned) return reply(mess.only.benned)   
                if (!isUser) return reply(mess.only.userB)
 					if (isBanned) return reply(mess.only.benned)  
-               random = kapankah[Math.floor(Math.random() * (kapankah.length))]  	
+               random = kapankah[Math.floor(Math.random() * (kapankah.length))]
+  	
                random2 = `${Math.floor(Math.random() * 8)}`
                hasil = `Pertanyaan : *${body.slice(1)}*\n\nJawaban : *${random2} ${random}*`
               reply(hasil)
