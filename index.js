@@ -607,7 +607,8 @@ async function starts() {
 			const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
 			const isAuto = isGroup ? auto.includes(groupId) : false
 			const isUser = user.includes(sender)
-			const isBanned = ban.includes(sender)
+			const q = args.join(' ')
+                        const isBanned = ban.includes(sender)
 			const isAntilink = isGroup ? anlink.includes(from) : false
 	        const pushname3 = client.contacts[botFebb] != undefined ? client.contacts[botFebb].vname || client.contacts[botFebb].notify : undefined
 	       function pushname2() {
