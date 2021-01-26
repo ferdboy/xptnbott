@@ -128,7 +128,7 @@ BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (XP-TN
 * [`Instagram Admin`](https://instagram.com/mragung23)
 * [`WhatsApp Admin `](https://wa.me/+6289655478810)
 
-##THANKS TO MY FRENDS
+##THANKS To
 * [`mhankbarbar Github`](https://github.com/MhankBarBar)
 <p align="center">
 <a href="https://www.appcreator24.com/app1317131"</a>
