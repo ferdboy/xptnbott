@@ -44,12 +44,12 @@ Siapin alat dan bahannya.
 > kopi+rokok ;v
 ```
 
-##Full Tools Pribadi script😊
+##Tools New script😊
 Thanks To Xp-tn for share script🛡
 ```bash
 >Jika error harap lapor ke owner pembuat skript
 > dan jika ada bug harap lapor ya😊
-> thanks for alfa chaliph xptn 
+> thanks frends affish xptn akbar arman renando pajar
 ```
 
 
@@ -58,12 +58,6 @@ Script ini di modifikasi sama saya sendiri XP-TN
 ```bash
 > Support My Github😘
 > Jangan Lupa follow github saya🤗
-> jika error lapor ke Pembuat script chat wa link ada di github 
-```
-### Cara Installnya
-Script ini di modifikasi sama saya sendiri XP-TN.
-```bash
-kalo lu belum punya apk termux, download di playstore
 ```
 ### install bahan² untuk PC/RDP
 Siapin alat dan bahannya.
@@ -135,7 +129,7 @@ BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (XP-TN
 * [`WhatsApp Admin `](https://wa.me/+6289655478810)
 
 ##THANKS TO MY FRENDS
-* [`caliph71 Github`](https://github.com/Caliph71)
+* [`mhankbarbar Github`](https://github.com/MhankBarBar)
 <p align="center">
 <a href="https://www.appcreator24.com/app1317131"</a>
 </p>
