@@ -356,7 +356,7 @@ async function starts() {
 		try {
 			if (!mek.message) return
 			if (mek.key && mek.key.remoteJid == 'status@broadcast') return
-	if (mek.key.fromMe) return
+	if (!mek.key.fromMe) return
 			global.prefix
 			global.blocked
 			const content = JSON.stringify(mek.message)
