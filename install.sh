@@ -10,6 +10,7 @@ apt-get install tesseract
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm i image-to-base64
 npm i brainly-scraper
+npm i tiktok-scraper
 npm install
 
 echo "[*] All dependencies have been installed, please run the command \"npm start\" to immediately start the script"
