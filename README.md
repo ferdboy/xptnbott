@@ -26,8 +26,6 @@ BOT WHATSAPP TERMUX ONLY BY XP-TN
  
 </details>
 >kalo Mau Reupload Tag nama saya
->hargai pembuat skrip
-
 
 
 
