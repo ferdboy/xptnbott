@@ -11,7 +11,7 @@ const {
    GroupSettingChange,
    waChatKey,
    mentionedJid,
-   processTime,
+   processTime
 } = require('@adiwajshing/baileys')
 const { color, bgcolor } = require('./lib/color')
 const { help, readme } = require('./src/help')
