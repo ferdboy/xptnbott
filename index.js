@@ -62,9 +62,9 @@ nomcr = `17196000713@s.whatsapp.net`
 
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:+62 896-5547-8810\n' // full name
-            + 'ORG:Owner XPTN Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6289655478810:6289655478810\n' // WhatsApp ID + phone number
+            + 'FN:Ferdi Ardian Saputra\n' // full name
+            + 'ORG:Owner NA Bot;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:6282169369877\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 
 blocked = []
@@ -783,7 +783,7 @@ async function starts() {
 			costum(`
 「 client VERSION」
 
-◪ client BOT
+◪ *client BOT*
  ❏*Name:* *${pushname3}*
  ❏*USER:* *FREE*
  ❏*Date:* *${date}*
@@ -793,7 +793,7 @@ async function starts() {
  ❏*Level:* *${lvs}*
  ❏*EXP:* *${esp}*
 
-◪ Group Menu
+◪ *Group Menu*
   │
   ├─ ❏ ${prefix}infoall <teks>
   ├─ ❏ ${prefix}listadmin
@@ -814,7 +814,7 @@ async function starts() {
   └─ ❏ ${prefix}linkgc
 
 
-◪ Anime Menu
+◪ *Anime Menu*
   │
   ├─ ❏ ${prefix}randomblowjob
   ├─ ❏ ${prefix}randomhentai
@@ -826,7 +826,7 @@ async function starts() {
   ├─ ❏ ${prefix}otakulast
   └─ ❏ ${prefix}waifu
 
-◪ Media Menu
+◪ *Media Menu*
   │
   ├─ ❏ ${prefix}sticker
   ├─ ❏ ${prefix}toimg <reply gambar>
@@ -860,7 +860,7 @@ async function starts() {
   ├─ ❏ ${prefix}tiktok <link>
   └─ ❏ ${prefix}howak
 
-◪ Other Menu
+◪ *Other Menu*
   │
   ├─ ❏ ${prefix}addsticker <optional>
   ├─ ❏ ${prefix}getsticker <optional>
@@ -881,6 +881,13 @@ async function starts() {
   ├─ ❏ ${prefix}apakah
   ├─ ❏ ${prefix}kapankah
   ├─ ❏ ${prefix}blocklist
+
+THANKS TO
+• *ALLAH*
+• *SMANAC*
+• *LEGIO17*
+• *CATALYSMIC CLASS*
+• *NABILAH ><*
 
 ◩ XPTN BOT`, text, tescuk, cr)
 					break
@@ -3830,17 +3837,17 @@ if (!isUser) return reply(mess.only.userB)
                   if (budy.includes(`Assalamualaikum`)) {
                   reply(`Waalaikumsalam`)
                   }
-                  if (budy.includes(`kontol`)) {
-                  reply(`toxic anjg bangsat`)
+                  if (budy.includes(`Nabila`)) {
+                  reply(`Itu punya ku ><`)
                   }
-                  if (budy.includes(`goblok`)) {
-                  reply(`bacot anjing di larang toxic anjg`)
+                  if (budy.includes(`Bil`)) {
+                  reply(`Ngapain manggil bila? Bila itu punya ku 👿`)
                   }
    				  if (body.startsWith(`${prefix}${command}`)) {
                   reply(`Maaf *${pushname2()}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu Sayang😘*!`)
                   }
                   if (budy == 'cekprefix') {
-                  reply(`* XPTN BOT USING PREFIX [ ${prefix} ]*`)
+                  reply(`*NA BOT USING PREFIX [ ${prefix} ]*`)
                   }
                   
    				if (isGroup && isSimi && budy != undefined && body.startsWith(`${prefix} `)) {
