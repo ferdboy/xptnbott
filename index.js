@@ -47,8 +47,8 @@ const user = JSON.parse(fs.readFileSync('./src/user.json'))
 const speed = require('performance-now')
 ban = JSON.parse(fs.readFileSync('./src/banned.json'))
 const { ind } = require('./language')
-prefix = '?'
-limitawal = '20'
+prefix = '!'
+limitawal = '222'
 cr = '*NABOT*'
 nomcr = `6282169369877@s.whatsapp.net`
      
@@ -739,7 +739,7 @@ async function starts() {
 				levelon: '❬ 👍 ❭ *enable leveling*',
 				leveloff: ' ❬ 👎 ❭  *disable leveling*',
 				levelnoton: '❬ 👎 ❭ *leveling not aktif*',
-				levelnol: '*LEVEL KAMU MASIH 0 BERLUM BISA MEMBUKA FITUR HARAP HUBUNGI OWNER*',
+				levelnol: '*LEVEL KAMU MASIH 0 BELUM BISA MEMBUKA FITUR HARAP HUBUNGI OWNER*',
 				success: '✔️ Berhasil ✔️',
 				error: {
 					stick: '[❗] Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker ❌',
