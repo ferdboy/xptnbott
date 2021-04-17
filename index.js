@@ -49,8 +49,8 @@ ban = JSON.parse(fs.readFileSync('./src/banned.json'))
 const { ind } = require('./language')
 prefix = '?'
 limitawal = '20'
-cr = '*XPTN*'
-nomcr = `17196000713@s.whatsapp.net`
+cr = '*NABOT*'
+nomcr = `6282169369877@s.whatsapp.net`
      
      // API KEY
 			const barkey = 'APIKEY' // get in https://mhankbarbar.tech/api
